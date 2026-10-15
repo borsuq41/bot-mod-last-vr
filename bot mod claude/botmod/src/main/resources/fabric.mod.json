@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "botmod",
+  "version": "${version}",
+  "name": "Bot Mod",
+  "description": "Wysyla bota na serwer. Menu pod klawiszem X.",
+  "authors": ["Ty"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.botmod.BotModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
